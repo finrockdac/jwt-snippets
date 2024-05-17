@@ -31,3 +31,7 @@ bodyHash
 - [NodeJS](node.js)
 - Python
 - PHP
+
+## External Links
+- [Developer Documentation](https://finrock.readme.io/)
+- [Support](https://help.finrock.io)
