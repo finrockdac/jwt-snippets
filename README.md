@@ -27,7 +27,7 @@ bodyHash
 ```
 
 ## Snippets (Examples)
-- C#
-- NodeJS
+- [C#](csharp.cs)
+- [NodeJS](node.js)
 - Python
 - PHP
