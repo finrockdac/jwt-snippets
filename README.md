@@ -29,8 +29,8 @@ bodyHash
 ## Snippets (Examples)
 - [C#](csharp.cs)
 - [NodeJS](node.js)
-- Python
-- PHP
+- [Python](python.py)
+- [PHP](php-example.php)
 
 ## External Links
 - [Developer Documentation](https://finrock.readme.io/)
