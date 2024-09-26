@@ -3,21 +3,6 @@ const fs = require('fs');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 
-var publicKEY  = `-----BEGIN PUBLIC KEY-----
-MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAznVKxsQ9i2nAFenbyXw/
-Ol8/l6rdlcRxkWV+OCXve5HtbcNM35xloCx/1401lSXLA4hi/LPD/B5qH6qWm7e+
-fU0G3MupV5XBEXZsrxbDiasTuuR2eTON2ZXAjSzLfo75mcOW3452ZNooDqUhuC0w
-9ZOnvtcnqJgSnMSJEmz1D95XCBA5NXeKanKQS+Ekt33yyjrNKxTMHp0Rfi3RgOFa
-9YnfnqAzi22xOvwLUg0VoTIpUbydr9aib0xzqw389a2Je57MLa+G3eHEU4OEDuzT
-YznrgkZ8gGW0hYzxjFkFl6yhnd4uvJ1HdN+wSh9tp7kxTwaGOJbH18hcdmu8qx2B
-ykSUN+5up2mdKjoUCQZceyqJf4Bw5mXwZo6r4s4dgbyqQcMcEET7oY9JQdPdCdpa
-5JwVCx2ge3rpOLt7eTySzKK7LDEr/drFVb8Y/qwXZc1wdLr0LSGaSVmJ+ka1i+d1
-Esx3IKDMbrmPvhauntQ76clGTb0lKoFWiu7724mRH/jS1xIxiediU57OjsNl0Ofw
-TwEgii/tqALPuDm6edxzEnQaUMuxGvHIvzT8s5/dpZKLJLCSFhNGfAuKvIe432id
-90zW58GHDYqzt+exnLi3JTv0B4sLbsnylQ7BE5/RWVi05Tl3afOAL6W5KMAP4cty
-4NxlpResFGDiDfTau7un5S8CAwEAAQ==
------END PUBLIC KEY-----`;
-
 var privateKEY  = `-----BEGIN PRIVATE KEY-----
 MIIJQQIBADANBgkqhkiG9w0BAQEFAASCCSswggknAgEAAoICAQDOdUrGxD2LacAV
 6dvJfD86Xz+Xqt2VxHGRZX44Je97ke1tw0zfnGWgLH/XjTWVJcsDiGL8s8P8Hmof
